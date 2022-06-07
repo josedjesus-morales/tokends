@@ -2,11 +2,32 @@
     "source": ["output.json"],
     "platforms": {
       "css": {
-        "transformGroup": "css",
+        "transformGroup": "custom/css",
         "files": [
           {
             "destination": "css/variables.css",
-            "format": "css/variables"
+            "format": "css/variables",
+            "filter": "validToken"
+          }
+        ]
+      },
+      "json-flat": {
+        "transformGroup": "web",
+        "buildPath": "tokens/json-flat/",
+        "files": [
+          {
+            "destination": "variables.json",
+            "format": "json/flat"
+          }
+        ]
+      },
+      "js": {
+        "transformGroup": "js",
+        "buildPath": "tokens/js/",
+        "files": [
+          {
+            "destination": "tokens.js",
+            "format": "javascript/es6"
           }
         ]
       }
