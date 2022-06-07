@@ -26,8 +26,32 @@
         "buildPath": "tokens/js/",
         "files": [
           {
-            "destination": "tokens.js",
-            "format": "javascript/es6"
+            "destination": "color.js",
+            "format": "javascript/es6",
+            "filter": {
+              "type": "color"
+            }
+          },
+          {
+            "destination": "space.js",
+            "format": "javascript/es6",
+            "filter": {
+              "type": "spacing"
+            }
+          },
+          {
+            "destination": "size.js",
+            "format": "javascript/es6",
+            "filter": {
+              "type": "sizing"
+            }
+          },
+          {
+            "destination": "radius.js",
+            "format": "javascript/es6",
+            "filter": {
+              "type": "borderRadius"
+            }
           }
         ]
       }
