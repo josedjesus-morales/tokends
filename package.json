@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/style-dictionary build",
-    "token-tranform":"node node_modules/token-transformer data/tokens.json output.json",
+    "filter": "node ./tokenfilter.js",
+    "token-transform":"node node_modules/token-transformer data/tokens.json output.json",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
