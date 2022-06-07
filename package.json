@@ -1,0 +1,26 @@
+{
+  "name": "tokends",
+  "version": "1.0.0",
+  "description": "test tokens",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/style-dictionary build",
+    "token-tranform":"node node_modules/token-transformer data/tokens.json output.json",
+    "clean": "rm -rf build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josedjesus-morales/tokends.git"
+  },
+  "author": "jose morales <jose.morales@televisatim.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josedjesus-morales/tokends/issues"
+  },
+  "homepage": "https://github.com/josedjesus-morales/tokends#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "^0.0.23"
+  }
+}
