@@ -1,0 +1,64 @@
+{
+  "Button s": {
+    "background": {
+      "$type": "color",
+      "$value": "{Primario}"
+    },
+    "color": {
+      "$type": "color",
+      "$value": "{Black}"
+    },
+    "padding-s": {
+      "$type": "dimension",
+      "$value": "{Padding.s}"
+    },
+    "font-s": {
+      "$type": "dimension",
+      "$value": "{Font-size.s}"
+    }
+  },
+  "Button m": {
+    "background": {
+      "$type": "color",
+      "$value": "{Primario}"
+    },
+    "color": {
+      "$type": "color",
+      "$value": "{Black}"
+    },
+    "padding-y": {
+      "$type": "dimension",
+      "$value": "{Padding.s}"
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": "{Padding.m}"
+    },
+    "font-m": {
+      "$type": "dimension",
+      "$value": "{Font-size.m}"
+    }
+  },
+  "Button l": {
+    "background": {
+      "$type": "color",
+      "$value": "{Primario}"
+    },
+    "color": {
+      "$type": "color",
+      "$value": "{Black}"
+    },
+    "padding-y": {
+      "$type": "dimension",
+      "$value": "{Padding.m}"
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": "{Padding.l}"
+    },
+    "font-l": {
+      "$type": "dimension",
+      "$value": "{Font-size.l}"
+    }
+  }
+}
