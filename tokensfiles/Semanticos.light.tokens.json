@@ -1,0 +1,64 @@
+{
+  "Button s": {
+    "background": {
+      "$type": "color",
+      "$value": "{Primario}"
+    },
+    "color": {
+      "$type": "color",
+      "$value": "{Black}"
+    },
+    "padding-s": {
+      "$type": "number",
+      "$value": "{Padding.s}"
+    },
+    "font-s": {
+      "$type": "number",
+      "$value": "{Font-size.s}"
+    }
+  },
+  "Button m": {
+    "background": {
+      "$type": "color",
+      "$value": "{Primario}"
+    },
+    "color": {
+      "$type": "color",
+      "$value": "{Black}"
+    },
+    "padding-y": {
+      "$type": "number",
+      "$value": "{Padding.s}"
+    },
+    "padding-x": {
+      "$type": "number",
+      "$value": "{Padding.m}"
+    },
+    "font-m": {
+      "$type": "number",
+      "$value": "{Font-size.m}"
+    }
+  },
+  "Button l": {
+    "background": {
+      "$type": "color",
+      "$value": "{Primario}"
+    },
+    "color": {
+      "$type": "color",
+      "$value": "{Black}"
+    },
+    "padding-y": {
+      "$type": "number",
+      "$value": "{Padding.m}"
+    },
+    "padding-x": {
+      "$type": "number",
+      "$value": "{Padding.l}"
+    },
+    "font-l": {
+      "$type": "number",
+      "$value": "{Font-size.l}"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "Primario": {
+    "$type": "color",
+    "$value": "{verde.500}"
+  },
+  "Secundario": {
+    "$type": "color",
+    "$value": "{neutral.100}"
+  },
+  "Light": {
+    "$type": "color",
+    "$value": "{verde.900}"
+  },
+  "Dark": {
+    "$type": "color",
+    "$value": "{verde.100}"
+  },
+  "White": {
+    "$type": "color",
+    "$value": "{neutral.0}"
+  },
+  "Black": {
+    "$type": "color",
+    "$value": "{neutral.100}"
+  },
+  "Gray-50": {
+    "$type": "color",
+    "$value": "{neutral.50}"
+  },
+  "verde": {
+    "100": {
+      "$type": "color",
+      "$value": "#00330d"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#20ff5b"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#99ffb4"
+    },
+    "500-a50": {
+      "$type": "color",
+      "$value": "rgba(32, 255, 91, 0.5000)"
+    },
+    "100-a50": {
+      "$type": "color",
+      "$value": "rgba(0, 51, 13, 0.5000)"
+    }
+  },
+  "neutral": {
+    "0": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "#808080"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#000000"
+    }
+  },
+  "Padding": {
+    "xs": {
+      "$type": "number",
+      "$value": 4
+    },
+    "s": {
+      "$type": "number",
+      "$value": 8
+    },
+    "m": {
+      "$type": "number",
+      "$value": 16
+    },
+    "l": {
+      "$type": "number",
+      "$value": 24
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 32
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 48
+    }
+  },
+  "Font-size": {
+    "xs": {
+      "$type": "number",
+      "$value": 4
+    },
+    "s": {
+      "$type": "number",
+      "$value": 8
+    },
+    "m": {
+      "$type": "number",
+      "$value": 16
+    },
+    "l": {
+      "$type": "number",
+      "$value": 24
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 32
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 48
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": 64
+    }
+  },
+  "line-height": {
+    "xs": {
+      "$type": "number",
+      "$value": 8
+    },
+    "s": {
+      "$type": "number",
+      "$value": 16
+    },
+    "m": {
+      "$type": "number",
+      "$value": 24
+    },
+    "l": {
+      "$type": "number",
+      "$value": 32
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 48
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 64
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": 72
+    }
+  },
+  "Radius": {
+    "xs": {
+      "$type": "number",
+      "$value": 8
+    },
+    "s": {
+      "$type": "number",
+      "$value": 16
+    },
+    "m": {
+      "$type": "number",
+      "$value": 24
+    },
+    "l": {
+      "$type": "number",
+      "$value": 32
+    },
+    "full": {
+      "$type": "number",
+      "$value": 999
+    }
+  }
+}
